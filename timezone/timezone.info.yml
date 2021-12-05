@@ -1,0 +1,4 @@
+name: Timezone
+description: Obtains time based on current timezone
+core: 8.x
+type: module

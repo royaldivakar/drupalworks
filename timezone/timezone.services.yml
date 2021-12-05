@@ -1,0 +1,3 @@
+services:
+  time_generator_service:
+    class: Drupal\timezone\TimeGenerator
