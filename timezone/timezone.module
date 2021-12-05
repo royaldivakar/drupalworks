@@ -1,0 +1,13 @@
+<?php
+
+/**
+ *  Implements hook_theme()
+ */
+
+ function timezone_theme($existing, $type, $theme, $path) {
+    return [
+      'block_timezone' => [
+        'variables' => ['timezone' => NULL, 'time' => NULL],
+      ],
+    ];
+  }
